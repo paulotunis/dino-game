@@ -4,12 +4,15 @@ Cópia simples do famoso jogo do dinossauro existente no Chrome. Nele são aplic
 
 Desenvolvido durante Bootcamp oferecido pela [Digital Innovation One](https://web.digitalinnovation.one/home) e ministrado pelo professor *Celso Henrique da Silva*.
 
-**Foram utilizados:** HTML; CSS e JavaScript.
+
+
+**Foram utilizados:** HTML, CSS e JavaScript.
 
 
 
 ## Recursos adicionados
 
-- Troca dos personagens;
+- Alteração dos personagens;
 - Painel com pontuação conforme salta os obstáculos com sucesso;
+- Tela de *"Game Over"* com botão de *"Restart"*;
 - Sons.
