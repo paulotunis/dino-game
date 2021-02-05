@@ -1,46 +1,59 @@
 body {
-  background: #fafafa;  
-}
-
-.dino {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  bottom: 0;
-  background-image: url(dino.png);
-}
-
-.cactus {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  bottom: 0;
-  background-image: url(cactus.png);
-}
-
-.game-over {
-  text-align: center;
-  color: #666666;
-  margin-top: 50px;
-  font-family: Arial;
-}
-
-@keyframes slideright {
-  from {
-      background-position: 70000%;
-  }
-  to {
-      background-position: 0;
-  }
+  background: #fafafa;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  overflow: hidden;
 }
 
 .background {
   position: absolute;
   width: 100%;
+  height: 27px;
   height: 200px;
   bottom: 50%;
-  background-image: url('background.png');
+  background-image: url(images/background.png);
   background-repeat: repeat-x;
-  animation: slideright 600s infinite linear;
-  -webkit-animation: slideright 600s infinite linear; 
+  animation: slideright 700s infinite linear;
+  -webkit-animation: slideright 700s infinite linear;
+}
+
+.points {  
+  color: #535353;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.dino {
+  position: absolute;
+  width: 97px;
+  height: 53px;
+  bottom: 0;
+  background-image: url(images/runner.gif);
+}
+
+.cactus {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  bottom: 15px;
+  background-image: url(images/bomba.png);
+}
+
+.game-over {
+  text-align: center;
+  color: #666666;
+  margin: 60px auto;
+  font-family: Arial;
+  width: 330px;
+  height: 130px;
+  background-image: url(images/game-over.png);  
+}
+
+@keyframes slideright {
+  from {
+      background-position: 100000%;
+  }
+  to {
+      background-position: 0;
+  }
 }
