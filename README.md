@@ -13,6 +13,6 @@ Desenvolvido durante Bootcamp oferecido pela [Digital Innovation One](https://we
 ## Recursos adicionados
 
 - Alteração dos personagens;
-- Painel com pontuação conforme salta os obstáculos com sucesso;
-- Tela de *"Game Over"* com botão de *"Restart"*;
-- Sons.
+- Adicionado painel com pontuação conforme salta os obstáculos com sucesso;
+- Adicionada tela de *"Game Over"* com botão de *"Restart"*;
+- Inclusão de sons nos eventos do jogo.
